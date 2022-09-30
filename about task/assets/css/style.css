@@ -1,0 +1,94 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url('../css/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+.mainMeCon {
+  border-top: solid 3px rgba(50, 50, 230);
+  width: 120%;
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  top: 0%;
+}
+
+.mainMe {
+  background-color: rgba(36, 36, 39, 0.7);
+  height: 95px;
+  width: 85%;
+  display: flex;
+}
+
+.logo {
+  padding: 15px 15px 15px 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.menuItems {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: 450;
+  text-decoration: none;
+  color: white;
+}
+
+.mainMe a {
+  font-family: 'myFont';
+  text-transform: uppercase;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  transition: all .8s;
+}
+
+.mainMe a:hover {
+  color: rgb(50, 50, 230);
+}
+
+.menuIcons {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+/* ------------------------------------- */
+@font-face {
+  font-family: 'bannerFont';
+  src: url('../css/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+.banner {
+  width: 100%;
+  height: 545px;
+  background-image: url('../images/bg-title-page-03.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+ }
+
+.bannerTitle {
+  font-size: 50px;
+  color: white;
+  font-family: 'bannerFont';
+  text-transform: uppercase;
+}
